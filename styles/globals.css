@@ -61,3 +61,54 @@ a {
 code {
 	font-family: "Fira Code", monospace;
 }
+.primaryBtn {
+	font-size: 1.6rem;
+	border-radius: 0.5em;
+	color: var(--black);
+	background: var(--yellow);
+	padding: 0.8rem 1.5rem;
+	border: none;
+	font-family: inherit;
+	cursor: pointer;
+	transition: 250ms all;
+}
+.primaryBtn:active {
+	transform: scale(0.98);
+}
+.primaryBtn:hover {
+	background: #ffac6b;
+}
+.defaultBtn {
+	font-size: 1.6rem;
+	border-radius: 0.5em;
+	color: var(--white);
+	background: #1c2b3a;
+	padding: 0.8rem 1.5rem;
+	border: none;
+	font-family: inherit;
+	cursor: pointer;
+	transition: 250ms all;
+}
+.defaultBtn:active {
+	transform: scale(0.98);
+}
+.defaultBtn:hover {
+	background: #263b50;
+}
+.ghostBtn {
+	font-size: 1.6rem;
+	border-radius: 0.5em;
+	color: var(--white);
+	background: none;
+	padding: 0.8rem 1.5rem;
+	border: 0.1rem solid var(--white);
+	font-family: inherit;
+	cursor: pointer;
+	transition: 250ms all;
+}
+.ghostBtn:active {
+	transform: scale(0.98);
+}
+.ghostBtn:hover {
+	border: 0.1rem solid rgba(255, 255, 255, 0.5);
+}
