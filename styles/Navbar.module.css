@@ -1,0 +1,19 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 1.5rem 5rem;
+}
+.logo {
+	color: var(--yellow);
+}
+.categories > a {
+	transition: 250ms all;
+}
+.categories > a:hover {
+	color: var(--yellow);
+}
+.categories > a:not(:last-child) {
+	margin-right: 2rem;
+}

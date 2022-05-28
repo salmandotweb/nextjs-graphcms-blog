@@ -1,0 +1,29 @@
+.card {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding: 1rem 1.5rem;
+	border-radius: 0.5rem;
+	border: 0.1rem solid var(--lines);
+	background: var(--primary2);
+}
+.authorImg {
+	width: 5rem;
+	margin-top: 1rem;
+}
+.authorImg > img {
+	width: 100%;
+	border-radius: 50%;
+}
+.title {
+	font-weight: normal;
+}
+.featuredImage {
+	width: 100%;
+	margin-top: 1rem;
+}
+.featuredImage > img {
+	width: 100%;
+	border-radius: 0.5rem;
+}

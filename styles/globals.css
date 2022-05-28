@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+:root {
+	--white: #ffffff;
+	--black: #01080e;
+	--primary1: #011627;
+	--primary2: #011221;
+	--grey: #607b96;
+	--light-green: #43d9ad;
+	--dark-green: #3c9d93;
+	--purple: #4d5bce;
+	--yellow: #fea55f;
+	--orange: #e99287;
+	--pink: #c98bdf;
+	--lines: #1e2d3d;
+	--gradient1: #4d5bce;
+	--gradient2: #43d9ad;
+	--cell-size: 10rem;
+	--mark-size: calc(var(--cell-size) * 0.6);
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Fira Code", monospace;
+	font-size: 1.6rem;
+	background: var(--primary1);
+	color: var(--white);
+}
+
+body::-webkit-scrollbar {
+	width: 0.7rem;
+}
+
+body::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 0.6rem rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: var(--yellow);
+	outline: 0.1rem solid var(--yellow);
+}
+
+a {
+	color: var(--grey);
+}
+
+code {
+	font-family: "Fira Code", monospace;
+}
